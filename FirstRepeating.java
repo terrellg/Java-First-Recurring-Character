@@ -26,8 +26,8 @@ public class FirstRepeating {
  * 	
  * 
  * 	
- * 					Worst Case:	n^2 comparisons O(n^2)
- * 					Best Case: 	n comparisons O(n^)
+ * 					Worst Case:	n^2 comparisons O(n^2) String = abcdd
+ * 					Best Case: 	1 comparisons O(1)     String = aabcd
  * 	
  * 	
 */
@@ -57,8 +57,8 @@ public String exponential(String s) {
  * 
  * 
  * 
- * Worst Case: n comparisons O(n)
- * Best Case: 1 comparison O(1)
+ * Worst Case: n comparisons O(n)	     String = abcda
+ * Best Case: 1 comparison O(1)              String= aabcd
  * 
  */
 
